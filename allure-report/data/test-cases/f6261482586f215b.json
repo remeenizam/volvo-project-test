@@ -1,0 +1,70 @@
+{
+  "uid" : "f6261482586f215b",
+  "name" : "should accept the cookies first",
+  "fullName" : "Volvo.should accept the cookies first",
+  "historyId" : "4b3fb31f5d016de6286f1715c352450",
+  "time" : {
+    "start" : 1654868564405,
+    "stop" : 1654868570251,
+    "duration" : 5846
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo"
+  }, {
+    "name" : "testMethod",
+    "value" : "should accept the cookies first"
+  }, {
+    "name" : "package",
+    "value" : "Volvo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c36017bb06a16236",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654868564141,
+        "stop" : 1654868567959,
+        "duration" : 3818
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6261482586f215b.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

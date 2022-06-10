@@ -1,0 +1,62 @@
+{
+  "uid" : "4b2c52a61e191df8",
+  "name" : "Click the SUV button",
+  "fullName" : "Volvo.Click the SUV button",
+  "historyId" : "c578d8b9dc250cbe6ba1323074f1379e",
+  "time" : {
+    "start" : 1654868575063,
+    "stop" : 1654868582719,
+    "duration" : 7656
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click the SUV button"
+  }, {
+    "name" : "package",
+    "value" : "Volvo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4b2c52a61e191df8.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

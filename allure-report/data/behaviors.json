@@ -1,0 +1,141 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Should launch the webpage",
+    "uid" : "5a797949521d67e2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654868558096,
+      "stop" : 1654868564404,
+      "duration" : 6308
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-102.0.5005.63" ]
+  }, {
+    "name" : "should accept the cookies first",
+    "uid" : "f6261482586f215b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654868564405,
+      "stop" : 1654868570251,
+      "duration" : 5846
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-102.0.5005.63" ]
+  }, {
+    "name" : "Click the menu button",
+    "uid" : "e2b7fc1ed8fb6cef",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654868567961,
+      "stop" : 1654868570191,
+      "duration" : 2230
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-102.0.5005.63" ]
+  }, {
+    "name" : "Click the Buy button",
+    "uid" : "af1ee208b17a65ba",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654868570191,
+      "stop" : 1654868572744,
+      "duration" : 2553
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-102.0.5005.63" ]
+  }, {
+    "name" : "Click the our car button",
+    "uid" : "b50e95639a79bc12",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654868570252,
+      "stop" : 1654868575062,
+      "duration" : 4810
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-102.0.5005.63" ]
+  }, {
+    "name" : "Click the Car Configurator",
+    "uid" : "841e308f5e684c2e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654868572745,
+      "stop" : 1654868576057,
+      "duration" : 3312
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-102.0.5005.63" ]
+  }, {
+    "name" : "Click the SUV button",
+    "uid" : "4b2c52a61e191df8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654868575063,
+      "stop" : 1654868582719,
+      "duration" : 7656
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-102.0.5005.63" ]
+  }, {
+    "name" : "Click the C40 Recharge car",
+    "uid" : "227102a7686bba7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654868576057,
+      "stop" : 1654868578025,
+      "duration" : 1968
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-102.0.5005.63" ]
+  } ]
+}

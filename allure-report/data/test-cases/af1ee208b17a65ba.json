@@ -1,0 +1,62 @@
+{
+  "uid" : "af1ee208b17a65ba",
+  "name" : "Click the Buy button",
+  "fullName" : "Volvo.Click the Buy button",
+  "historyId" : "a7d6be10b290f35ae463f59171cda70b",
+  "time" : {
+    "start" : 1654868570191,
+    "stop" : 1654868572744,
+    "duration" : 2553
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click the Buy button"
+  }, {
+    "name" : "package",
+    "value" : "Volvo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af1ee208b17a65ba.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

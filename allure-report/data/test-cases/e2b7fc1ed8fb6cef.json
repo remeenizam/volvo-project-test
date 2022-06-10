@@ -1,0 +1,62 @@
+{
+  "uid" : "e2b7fc1ed8fb6cef",
+  "name" : "Click the menu button",
+  "fullName" : "Volvo.Click the menu button",
+  "historyId" : "5819967fbd4b7c5e76bfdddeaa0e0d2a",
+  "time" : {
+    "start" : 1654868567961,
+    "stop" : 1654868570191,
+    "duration" : 2230
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click the menu button"
+  }, {
+    "name" : "package",
+    "value" : "Volvo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e2b7fc1ed8fb6cef.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

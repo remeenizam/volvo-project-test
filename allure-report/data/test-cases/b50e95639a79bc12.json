@@ -1,0 +1,62 @@
+{
+  "uid" : "b50e95639a79bc12",
+  "name" : "Click the our car button",
+  "fullName" : "Volvo.Click the our car button",
+  "historyId" : "9ca57ea73af4d26567ec8366c964ff69",
+  "time" : {
+    "start" : 1654868570252,
+    "stop" : 1654868575062,
+    "duration" : 4810
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click the our car button"
+  }, {
+    "name" : "package",
+    "value" : "Volvo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b50e95639a79bc12.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}

@@ -1,0 +1,70 @@
+{
+  "uid" : "5a797949521d67e2",
+  "name" : "Should launch the webpage",
+  "fullName" : "Volvo.Should launch the webpage",
+  "historyId" : "b878b67708dd042c30510dfac9f9dcad",
+  "time" : {
+    "start" : 1654868558096,
+    "stop" : 1654868564404,
+    "duration" : 6308
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should launch the webpage"
+  }, {
+    "name" : "package",
+    "value" : "Volvo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-102.0.5005.63"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ae91cbe8575ad45b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654868556372,
+        "stop" : 1654868564140,
+        "duration" : 7768
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a797949521d67e2.json",
+  "parameterValues" : [ "chrome-102.0.5005.63" ]
+}
