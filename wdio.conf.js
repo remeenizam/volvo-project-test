@@ -43,7 +43,7 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 2,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
@@ -58,11 +58,25 @@ exports.config = {
         browserName: 'chrome',
         acceptInsecureCerts: true
     },
-    /*{
-         maxInstances: 2,
-          browserName: 'firefox',
-        acceptInsecureCerts: true
-    }*/
+  //  {
+    //    maxInstances: 2,
+      //  browserName: 'firefox',
+        //acceptInsecureCerts: true
+   // }
+   /* capabilities: [{
+        maxInstances: 10,
+        browserName: 'chrome',
+        acceptInsecureCerts: true,
+        'goog:chromeOptions': {
+            args: [
+                '--no-sandbox',
+                '--disable-infobars',
+                '--headless',
+                '--disable-gpu',
+                '--window-size=1440,735'
+            ],
+        }
+    }],*/
 
 ],
     //
@@ -112,10 +126,21 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['chromedriver'],
+    //services: ['chromedriver'],
+    services: ['docker'],
+    
+
+  /*  dockerOptions: {
+        image: 'selenium/standalone-chrome',
+        healthCheck: 'http://localhost:4444',
+        options: {
+            p: ['4444:4444'],
+            shmSize: '2g'
+        }
+    },*/
   
   // services: ['selenium-standalone'],
-  //services: ['selenium-standalone'],
+  services: ['seleniumchrome'],
   
    
    
@@ -144,12 +169,12 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
 
-   // reporters: ['spec'],
-   reporters: [['allure', {
+    reporters: ['spec'],
+  /* reporters: [['allure', {
     outputDir: 'allure-results',
     disableWebdriverStepsReporting: true,
     disableWebdriverScreenshotsReporting: false,
-}]],
+}]],*/
 
 
     
@@ -256,12 +281,12 @@ exports.config = {
      */
      //afterTest: async function(test, context, { error, result, duration, passed, retries }) {
      //},
-     
-     afterTest: async function (step, scenario, { error, duration, passed }, context) {
-        if (error) {
-          await browser.takeScreenshot();
-        }
-      }
+
+     //afterTest: async function (step, scenario, { error, duration, passed }, context) {
+       // if (error) {
+         // await browser.takeScreenshot();
+        //}
+      //}
 
 
     /**

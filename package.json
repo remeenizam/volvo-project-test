@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "@wdio/mocha-framework": "^7.20.0",
     "@wdio/spec-reporter": "^7.20.0",
     "chromedriver": "^102.0.0",
-    "wdio-chromedriver-service": "^7.3.2"
+    "wdio-chromedriver-service": "^7.3.2",
+    "wdio-docker-service": "^3.2.0"
   }
 }
