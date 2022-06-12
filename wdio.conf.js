@@ -49,7 +49,8 @@ exports.config = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://saucelabs.com/platform/platform-configurator
     //
-    capabilities: [{
+    capabilities: [
+      {
     
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
@@ -58,25 +59,11 @@ exports.config = {
         browserName: 'chrome',
         acceptInsecureCerts: true
     },
-  //  {
-    //    maxInstances: 2,
-      //  browserName: 'firefox',
-        //acceptInsecureCerts: true
-   // }
-   /* capabilities: [{
-        maxInstances: 10,
-        browserName: 'chrome',
-        acceptInsecureCerts: true,
-        'goog:chromeOptions': {
-            args: [
-                '--no-sandbox',
-                '--disable-infobars',
-                '--headless',
-                '--disable-gpu',
-                '--window-size=1440,735'
-            ],
-        }
-    }],*/
+   /* {
+        maxInstances: 2,
+        browserName: 'firefox',
+        acceptInsecureCerts: true
+    }*/
 
 ],
     //
@@ -128,26 +115,8 @@ exports.config = {
     // commands. Instead, they hook themselves up into the test process.
     //services: ['chromedriver'],
     services: ['docker'],
-    
-
-  /*  dockerOptions: {
-        image: 'selenium/standalone-chrome',
-        healthCheck: 'http://localhost:4444',
-        options: {
-            p: ['4444:4444'],
-            shmSize: '2g'
-        }
-    },*/
-  
   // services: ['selenium-standalone'],
-  services: ['seleniumchrome'],
-  
-   
-   
-   
-   
-   
-    
+  services: ['chromedriver'], 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
     // see also: https://webdriver.io/docs/frameworks
