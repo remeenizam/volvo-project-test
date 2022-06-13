@@ -2,15 +2,13 @@ const mainPage = require('../pageobjects/main.page.js');
 describe('Volvo',()=>{
     it('Should launch the webpage',async()=>{
        await browser.url('https://www.volvocars.com/intl/v/car-safety/a-million-more');
-    // await mainPage.open();
-     await expect(browser).toHaveTitle('A million more | Volvo Cars - International');
-      // await browser.maximizeWindow(); 
-    });
+       await expect(browser).toHaveTitle('A million more | Volvo Cars - International');
+      });
   // cookie Test case:1
     it('should accept the cookies first', async()=>{
        await mainPage.acceptCookies.click();
        await expect(mainPage.acceptCookies).toBeExisting();
-       await browser.pause(1000);
+       await browser.pause(3000);
    });
    //Click menu button test case:2
    it('Click the menu button', async()=>{
@@ -28,7 +26,7 @@ describe('Volvo',()=>{
   await browser.pause(2000);
    });
   
-   //Click Car configuration button test case:4
+   //Click Car configurator button test case:4
  it('Click the Car Configurator', async()=>{
   console.log(await mainPage.carConfig.getText()) // outputs: "Car Configurator"
   console.log(await mainPage.carConfig.getTagName())  
